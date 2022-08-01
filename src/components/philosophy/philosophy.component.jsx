@@ -4,7 +4,7 @@ import pic from './image 1.png';
 import Service from '../service/service.component';
 
 const PhilosophySection = () => (
-  <section className="philosophy">
+  <section className="philosophy" id="philosophy">
     <div className="container">
       <div className="philosophy-title-content">
         <h2 className="heading-2">our philosophy</h2>

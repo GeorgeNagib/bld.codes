@@ -4,7 +4,7 @@ import ContactCard from '../contact-card/contact-card.component';
 import './contact.styles.css';
 
 const Contact = () => (
-  <section className="contact-us">
+  <section className="contact-us" id="contact">
     <div className="container">
       <h2 className="heading-2">CONTACT US</h2>
       <svg

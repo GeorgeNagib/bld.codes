@@ -10,17 +10,17 @@ const Navbar = () => (
         </a>
       </li>
       <li>
-        <a className="item__link" href="#">
+        <a className="item__link" href="#philosophy">
           PHILOSOPHY
         </a>
       </li>
       <li>
-        <a className="item__link" href="#">
+        <a className="item__link" href="#recent-projects">
           PROJECTS
         </a>
       </li>
       <li>
-        <a className="item__link" href="#">
+        <a className="item__link" href="#contact">
           contact
         </a>
       </li>
