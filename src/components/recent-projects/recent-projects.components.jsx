@@ -36,9 +36,13 @@ const RecentProjectsSection = () => {
           />
         </svg>
         <div className="projects">{projectComponent}</div>
-        <button className="see-more" onClick={handleClick}>
-          SEE More
-        </button>
+        {projects.length <= 4 || visibleProjects === projects.length ? (
+          ''
+        ) : (
+          <button className="see-more" onClick={handleClick}>
+            see more
+          </button>
+        )}
       </div>
     </section>
   );
