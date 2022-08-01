@@ -1,0 +1,45 @@
+.project {
+  opacity: 0.7;
+  transform: translateY(0);
+  transition: all 0.3s;
+}
+
+.project:hover {
+  opacity: 1;
+  transform: translateY(-5px);
+}
+
+.project img {
+  width: 584px;
+  height: 509px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+@media (max-width: 575.98px) {
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+}

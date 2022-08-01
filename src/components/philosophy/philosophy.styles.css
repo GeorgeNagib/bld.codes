@@ -1,0 +1,77 @@
+.philosophy {
+  padding-top: 16.9rem;
+  overflow: hidden;
+}
+
+@media (max-width: 575.98px) {
+  .philosophy {
+    padding-top: 10rem;
+  }
+}
+
+.philosophy-title-content {
+  position: relative;
+}
+
+.philosophy img {
+  width: 300px;
+  height: 154px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  left: 34%;
+  top: -40%;
+}
+
+@media (max-width: 575.98px) {
+  .philosophy img {
+    max-width: 80%;
+    left: 11%;
+    top: 26%;
+  }
+}
+
+@media (min-width: 384px) and (max-width: 575.98px) {
+  .philosophy img {
+    top: -39%;
+    left: 15%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .philosophy img {
+    max-width: 80%;
+    left: 22%;
+  }
+}
+.philosophy svg {
+  position: relative;
+  left: -3rem;
+  margin-bottom: 11.6rem;
+}
+
+@media (max-width: 575.98px) {
+  .philosophy svg {
+    margin-bottom: 9rem;
+  }
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 0 1rem;
+}
+
+@media (max-width: 575.98px) {
+  .service-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .service-container {
+    flex-wrap: wrap;
+  }
+}

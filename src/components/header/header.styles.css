@@ -1,0 +1,60 @@
+.header {
+  background: black;
+  border-radius: 24px;
+  padding-top: 7.9rem;
+  padding-bottom: 5.19rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.logo {
+  margin-bottom: 14.9rem;
+}
+
+@media (max-width: 575.98px) {
+  .logo {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .logo {
+    margin-bottom: 11rem;
+  }
+}
+
+.logo a {
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 19px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.header-content {
+  text-align: center;
+  margin-bottom: 14.9rem;
+}
+
+@media (max-width: 575.98px) {
+  .header-content {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header-content {
+    margin-bottom: 11rem;
+  }
+}
+
+.header-content span.idea {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgb(162, 160, 160);
+}

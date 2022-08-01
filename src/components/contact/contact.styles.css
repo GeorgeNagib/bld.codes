@@ -1,0 +1,36 @@
+.contact-us {
+  padding-top: 15rem;
+  overflow: hidden;
+}
+
+@media (max-width: 575.98px) {
+  .contact-us {
+    padding-top: 10rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-us {
+    padding-top: 10rem;
+  }
+}
+
+.contact-us svg {
+  position: relative;
+  left: -8rem;
+}
+
+.contact-card-container {
+  display: flex;
+  gap: 2rem;
+}
+
+@media (max-width: 575.98px) {
+  .contact-card-container {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-card-container {
+    flex-wrap: wrap;
+  }
+}
