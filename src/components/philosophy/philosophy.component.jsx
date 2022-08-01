@@ -25,19 +25,16 @@ const PhilosophySection = () => (
       </svg>
       <div className="service-container">
         <Service
-          title={'1.OUR APPROACH'}
-          description={`placerat ac laoreet odio tempor Vestibulum eu ac In ipsum lobortis, tincidunt porta eget malesuada facilisis tincidunt felis, nisl. elit efficitur. tortor. ex 
-            maximus vel libero, scelerisque placerat non. porta tincidunt tincidunt amet, efficitur. Praesent faucibus Donec In Sed hendrerit nec gravida Ut convallis. id `}
+          title={'1.Design'}
+          description={`We design not just to impress, we design to have client's attention, full attention and desire to use the product endlessly, to use it with confort, to use it with joy. `}
         />
         <Service
-          title={'2. OUR PHILOSOPHY'}
-          description={`placerat ac laoreet odio tempor Vestibulum eu ac In ipsum lobortis, tincidunt porta eget malesuada facilisis tincidunt felis, nisl. elit efficitur. tortor. ex 
-            maximus vel libero, scelerisque placerat non. porta tincidunt tincidunt amet, efficitur. Praesent faucibus Donec In Sed hendrerit nec gravida Ut convallis. id `}
+          title={'2.Code'}
+          description={`Our code is clean, dry, high performance, maintainable, we code with passion, we code with our souls, we are not just typing words on the keyboars, we feel our code and we make it alive.`}
         />
         <Service
-          title={'3.OUR message'}
-          description={`placerat ac laoreet odio tempor Vestibulum eu ac In ipsum lobortis, tincidunt porta eget malesuada facilisis tincidunt felis, nisl. elit efficitur. tortor. ex 
-            maximus vel libero, scelerisque placerat non. porta tincidunt tincidunt amet, efficitur. Praesent faucibus Donec In Sed hendrerit nec gravida Ut convallis. id `}
+          title={'3.Analysis'}
+          description={`After your product is online, what's can be better than using data to understand your clients better, to make the product better for them, to use the data for your advantage, what can be better.`}
         />
       </div>
     </div>

@@ -22,8 +22,8 @@ const Contact = () => (
       </svg>
 
       <div className="contact-card-container">
-        <ContactCard title={'MAIL@MAIL.COM'} />
-        <ContactCard title={'@BLD.CODES'} />
+        <ContactCard title={'MAIL'} link={'georgesafwat@protonmail.com'} />
+        <ContactCard title={'@BLD.CODES'} link={'georgesafwat@protonmail.com'} />
       </div>
     </div>
   </section>
