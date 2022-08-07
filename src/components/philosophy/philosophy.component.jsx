@@ -26,11 +26,11 @@ const PhilosophySection = () => (
       <div className="service-container">
         <Service
           title={'1.Design'}
-          description={`We design not just to impress, we design to have client's attention, full attention and desire to use the product endlessly, to use it with confort, to use it with joy. `}
+          description={`We design not just to impress, we design to have client's attention, full attention and desire to use the product endlessly, to use it with comfort, to use it with joy. `}
         />
         <Service
           title={'2.Code'}
-          description={`Our code is clean, dry, high performance, maintainable, we code with passion, we code with our souls, we are not just typing words on the keyboars, we feel our code and we make it alive.`}
+          description={`Our code is clean, dry, high performance, maintainable, we code with passion, we code with our souls, we are not just typing words on the keyboards, we feel our code and we make it alive.`}
         />
         <Service
           title={'3.Analysis'}
