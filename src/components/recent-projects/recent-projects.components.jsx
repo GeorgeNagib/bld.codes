@@ -8,7 +8,7 @@ import project2Pic from './1a11f479941667.5cd2a63411ff1.png'
 import project3Pic from './8bfe7970348063.5ba0cf2e025d7.png'
 import project4Pic from './31da4270347723.5ba0ccf15f0b4.jpg'
 import project5Pic from './MacBook Pro 14_ - 2.png'
-import project6Pic from './Section.png'
+import project6Pic from './FireShot Capture 015 - ▶ Latest - Untitled - www.figma.com.png'
 
 import project7Pic from './FireShot Capture 011 - matter.png'
 import project8Pic from './FireShot Capture 012 - ENTRO - entroo.netlify.app.png'
