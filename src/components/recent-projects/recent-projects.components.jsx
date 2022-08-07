@@ -70,7 +70,8 @@ const RecentProjectsSection = () => {
           />
         </svg>
         <div className="projects">{projectComponent}</div>
-        {projects.length <= 4 || visibleProjects === projects.length ? (
+        {visibleProjects ===
+        projects.length + Math.abs(visibleProjects - projects.length)  ? (
           ''
         ) : (
           <button className="see-more" onClick={handleClick}>
