@@ -10,12 +10,33 @@ import project4Pic from './31da4270347723.5ba0ccf15f0b4.jpg'
 import project5Pic from './MacBook Pro 14_ - 2.png'
 import project6Pic from './Section.png'
 
+import project7Pic from './FireShot Capture 011 - matter.png'
+import project8Pic from './FireShot Capture 012 - ENTRO - entroo.netlify.app.png'
+import project9Pic from './FireShot Capture 013 - New Age - .png'
+import project10Pic from './FireShot Capture 014 - Agncey - .png'
+
 const RecentProjectsSection = () => {
   
   const projects = [
-    {
+      {
       pic: project6Pic,
       link: "https://www.figma.com/file/T0cd2gvk9rKUKDRpog9Kj9/Untitled?node-id=457%3A14062",
+    },
+      {
+      pic: project7Pic,
+      link: "https://matter2.netlify.app/",
+    },
+      {
+      pic: project8Pic,
+      link: "https://entroo.netlify.app/",
+    },
+      {
+      pic: project9Pic,
+      link: "https://new-agee.netlify.app/",
+    },
+    {
+      pic: project10Pic,
+      link: "https://agency-bootstrap.netlify.app/",
     },
     {
     
