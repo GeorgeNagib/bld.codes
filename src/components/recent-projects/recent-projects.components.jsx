@@ -22,11 +22,17 @@ const RecentProjectsSection = () => {
       pic: project6Pic,
       link: "https://www.figma.com/file/T0cd2gvk9rKUKDRpog9Kj9/Untitled?node-id=457%3A14062",
     },
-      {
-      pic: project7Pic,
-      link: "https://matter2.netlify.app/",
-    },
-      {
+     {
+    
+    pic: project1Pic,
+    link: "https://www.behance.net/gallery/97885501/Arabic-ERP",
+  },
+    {
+    pic: project3Pic,
+    link: "https://www.behance.net/gallery/70348063/-website-for-SUA",
+  },
+      
+     {
       pic: project8Pic,
       link: "https://entroo.netlify.app/",
     },
@@ -51,10 +57,11 @@ const RecentProjectsSection = () => {
     pic: project5Pic,
     link: "#",
   },
-  {
-    pic: project3Pic,
-    link: "https://www.behance.net/gallery/70348063/-website-for-SUA",
-  },
+    {
+      pic: project7Pic,
+      link: "https://matter2.netlify.app/",
+    },
+  
   {
     pic: project4Pic,
     link: "https://www.behance.net/gallery/70347723/UIUX-for-MuskLive-app-%28c%29",
