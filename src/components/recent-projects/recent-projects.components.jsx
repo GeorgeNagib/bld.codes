@@ -44,11 +44,7 @@ const RecentProjectsSection = () => {
       pic: project10Pic,
       link: "https://agency-bootstrap.netlify.app/",
     },
-    {
     
-    pic: project1Pic,
-    link: "https://www.behance.net/gallery/97885501/Arabic-ERP",
-  },
   {
     pic: project2Pic,
     link: "https://www.behance.net/gallery/79941667/Roteec-V01",
