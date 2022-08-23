@@ -1,0 +1,118 @@
+/* // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+ */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+  background-color: black;
+}
+
+.container {
+  max-width: 119rem;
+  margin: auto;
+}
+
+.list-unstyled {
+  padding: 0;
+  list-style: none;
+}
+.heading-1 {
+  color: #fff;
+  font-family: 'IBM Plex Mono';
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 42px;
+  margin: auto;
+  margin-bottom: 2.4rem;
+}
+
+@media (max-width: 575.98px) {
+  .heading-1 {
+    font-size: 2.8rem;
+  }
+}
+
+.heading-2 {
+  font-family: 'IBM Plex Mono';
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 62px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media (max-width: 575.98px) {
+  .heading-2 {
+    font-size: 4rem;
+  }
+}
+
+/* .heading-3 {
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 3.4rem;
+  line-height: 44px;
+  color: #000000;
+  margin-bottom: 1.8rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 575.98px) {
+  .heading-3 {
+    font-size: 3rem;
+    margin-bottom: 1.3rem;
+  }
+} */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .heading-3 {
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .heading-3 {
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.home {
+  -ms-scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+
+header,
+section {
+  height: auto;
+  padding-bottom: 3.5rem;
+  scroll-snap-align: start;
+}

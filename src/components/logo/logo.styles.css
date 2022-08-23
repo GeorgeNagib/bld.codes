@@ -1,0 +1,26 @@
+.logo {
+  margin-bottom: 12rem;
+  margin-left: 2rem;
+}
+
+@media (max-width: 575.98px) {
+  .logo {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .logo {
+    margin-bottom: 11rem;
+  }
+}
+
+.logo a {
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 19px;
+  color: #ffffff;
+  text-transform: uppercase;
+}

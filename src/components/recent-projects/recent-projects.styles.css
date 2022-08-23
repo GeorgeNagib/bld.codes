@@ -1,0 +1,64 @@
+.recent-projects {
+  padding-top: 25.2rem;
+  overflow: hidden;
+}
+
+@media (max-width: 575.98px) {
+  .recent-projects {
+    padding-top: 15rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .recent-projects {
+    text-align: center;
+    padding-top: 15rem;
+  }
+}
+
+.recent-projects svg {
+  position: relative;
+  left: -15rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 7rem;
+  gap: 4rem;
+  justify-content: center;
+  margin-bottom: 7.6rem;
+}
+
+@media (max-width: 575.98px) {
+  .projects {
+    grid-template-columns: 1fr;
+    margin-top: 4rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .projects {
+    grid-template-columns: 1fr;
+    margin-top: 4rem;
+  }
+}
+
+.see-more {
+  display: flex;
+  justify-content: center;
+  font-family: 'IBM Plex Mono';
+  background: none;
+  border: 0;
+  margin: auto;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 21px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.see-more:hover {
+  transform: translateY(-5px);
+}

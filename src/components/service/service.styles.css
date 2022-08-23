@@ -1,0 +1,33 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'IBM Plex Mono';
+  color: #fff;
+}
+
+.service .heading-2 {
+  margin-bottom: 28px;
+}
+
+.service span {
+  font-weight: 700;
+  font-size: 96px;
+  margin-bottom: 28px;
+}
+
+.service .heading-3 {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 44px;
+  color: inherit;
+}
+
+.service .description {
+  width: 748px;
+  max-width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 1.7;
+}

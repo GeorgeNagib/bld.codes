@@ -1,0 +1,91 @@
+.philosophy {
+  padding: 3.5rem 0;
+  background: linear-gradient(
+    239.42deg,
+    rgba(151, 151, 151, 0.72) 18.75%,
+    rgba(162, 162, 162, 0.72) 47.06%,
+    rgba(151, 151, 151, 0.72) 82.1%
+  );
+  position: relative;
+  /* height: 100vh; */
+  height: auto;
+
+  -webkit-clip-path: polygon(
+    6% 0,
+    94% 0,
+    100% 10%,
+    100% 100%,
+    80% 100%,
+    20% 100%,
+    0 100%,
+    0 10%
+  );
+
+  clip-path: polygon(
+    6% 0,
+    94% 0,
+    100% 10%,
+    100% 100%,
+    80% 100%,
+    20% 100%,
+    0 100%,
+    0 10%
+  );
+}
+
+@media (max-width: 575.98px) {
+  .philosophy {
+    padding-top: 10rem;
+  }
+}
+
+.philosophy-title-content {
+  position: relative;
+}
+
+.philosophy img {
+  width: 300px;
+  height: 154px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  left: 34%;
+  top: -40%;
+}
+
+@media (max-width: 575.98px) {
+  .philosophy img {
+    max-width: 80%;
+    left: 11%;
+    top: 26%;
+  }
+}
+
+@media (min-width: 384px) and (max-width: 575.98px) {
+  .philosophy img {
+    top: -39%;
+    left: 15%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .philosophy img {
+    max-width: 80%;
+    left: 22%;
+  }
+}
+.philosophy svg {
+  position: relative;
+  left: -3rem;
+  margin-bottom: 11.6rem;
+}
+
+@media (max-width: 575.98px) {
+  .philosophy svg {
+    margin-bottom: 9rem;
+  }
+}
+
+.services {
+  margin-left: 8rem;
+}

@@ -1,0 +1,90 @@
+.header {
+  background: black;
+  padding-top: 3.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  height: 100vh;
+  position: relative;
+}
+
+.header-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.explore {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 146px;
+  height: 146px;
+  color: #fff;
+  background: rgba(151, 151, 151, 0.72);
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  -webkit-animation: myAnim 2s ease 0s infinite normal forwards;
+  animation: myAnim 2s ease 0s infinite normal forwards;
+  transition: all 2s;
+}
+
+.explore:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  background: rgba(171, 169, 169, 0.8);
+}
+
+@-webkit-keyframes myAnim {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes myAnim {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .header-content {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header-content {
+    margin-bottom: 11rem;
+  }
+}
+
+.header-content span.idea {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgb(162, 160, 160);
+  margin-bottom: 62px;
+}
