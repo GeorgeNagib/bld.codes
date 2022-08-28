@@ -27,12 +27,15 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  overflow: hidden;
-  background-color: black;
+  font-size: 1rem;
+
+  background: rgba(0, 0, 0, 0.75);
+
+  /* overflow: hidden; */
 }
 
 .container {
-  max-width: 119rem;
+  max-width: 115rem;
   margin: auto;
 }
 
@@ -50,69 +53,44 @@ body {
   margin-bottom: 2.4rem;
 }
 
-@media (max-width: 575.98px) {
-  .heading-1 {
-    font-size: 2.8rem;
-  }
-}
-
 .heading-2 {
   font-family: 'IBM Plex Mono';
   font-weight: 700;
-  font-size: 96px;
+  font-size: 7.5rem;
   line-height: 62px;
   color: #fff;
-  text-transform: uppercase;
-}
-
-@media (max-width: 575.98px) {
-  .heading-2 {
-    font-size: 4rem;
-  }
-}
-
-/* .heading-3 {
-  font-family: 'Inter';
-  font-weight: 900;
-  font-size: 3.4rem;
-  line-height: 44px;
-  color: #000000;
-  margin-bottom: 1.8rem;
-  text-transform: uppercase;
-}
-
-@media (max-width: 575.98px) {
-  .heading-3 {
-    font-size: 3rem;
-    margin-bottom: 1.3rem;
-  }
-} */
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .heading-3 {
-    font-size: 2.7rem;
-    margin-bottom: 1rem;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .heading-3 {
-    font-size: 2.7rem;
-    margin-bottom: 1rem;
-  }
 }
 
 .home {
-  -ms-scroll-snap-type: y mandatory;
+  /* -ms-scroll-snap-type: y mandatory;
   scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-  height: 100vh;
+  overflow-y: scroll; */
+
+  /* scroll-behavior: smooth;
+  height: 100vh; */
 }
 
 header,
-section {
-  height: auto;
-  padding-bottom: 3.5rem;
-  scroll-snap-align: start;
+section,
+footer {
+  /* scroll-snap-align: center; */
+  position: relative;
+}
+
+header,
+section,
+footer {
+  padding: 9rem 0 0 0 !important;
+
+  /* padding-bottom: 1rem !important; */
+  /* padding-bottom: 4rem !important; */
+  height: 100% !important;
+}
+
+header {
+  padding: 3.5rem 0 !important;
+}
+
+section.project {
+  padding: 6rem 0 0 0 !important;
 }

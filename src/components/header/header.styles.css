@@ -20,13 +20,13 @@
   text-decoration: none;
   justify-content: center;
   align-items: center;
-  width: 146px;
-  height: 146px;
+  width: 14.6rem;
+  height: 14.6rem;
   color: #fff;
   background: rgba(151, 151, 151, 0.72);
   border-radius: 50%;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 26px;
   -webkit-animation: myAnim 2s ease 0s infinite normal forwards;
   animation: myAnim 2s ease 0s infinite normal forwards;
@@ -83,8 +83,8 @@
   font-family: 'IBM Plex Mono';
   font-style: normal;
   font-weight: 200;
-  font-size: 15px;
+  font-size: 1.5rem;
   line-height: 20px;
   color: rgb(162, 160, 160);
-  margin-bottom: 62px;
+  margin-bottom: 6.2rem;
 }
