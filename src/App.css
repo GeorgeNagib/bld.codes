@@ -27,11 +27,7 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-
   background: rgba(0, 0, 0, 0.75);
-
-  /* overflow: hidden; */
 }
 
 .container {
@@ -53,44 +49,92 @@ body {
   margin-bottom: 2.4rem;
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .heading-1 {
+    font-size: 2.75rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .heading-1 {
+    font-size: 2.5rem;
+  }
+}
+
 .heading-2 {
   font-family: 'IBM Plex Mono';
   font-weight: 700;
   font-size: 7.5rem;
-  line-height: 62px;
+  line-height: 50px;
   color: #fff;
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .heading-2 {
+    font-size: 6rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .heading-2 {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .heading-2 {
+    font-size: 4rem;
+  }
+}
+
 .home {
-  /* -ms-scroll-snap-type: y mandatory;
+  -ms-scroll-snap-type: y mandatory;
   scroll-snap-type: y mandatory;
-  overflow-y: scroll; */
+  overflow-y: scroll;
 
-  /* scroll-behavior: smooth;
-  height: 100vh; */
+  scroll-behavior: smooth;
+  height: 100vh;
 }
 
 header,
 section,
 footer {
-  /* scroll-snap-align: center; */
+  scroll-snap-align: start;
   position: relative;
+  padding: 9rem 3rem 0 3rem !important;
+
+  height: 100vh !important;
 }
 
-header,
-section,
-footer {
-  padding: 9rem 0 0 0 !important;
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header,
+  section,
+  footer {
+    padding: 7rem 3rem 5rem 3rem !important;
+    height: auto !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header,
+  section,
+  footer {
+    padding: 5rem 3rem 5rem 3rem !important;
+    height: auto !important;
+  }
+}
 
-  /* padding-bottom: 1rem !important; */
-  /* padding-bottom: 4rem !important; */
-  height: 100% !important;
+@media (max-width: 575.98px) {
+  header,
+  section,
+  footer {
+    padding: 5rem 3rem 5rem 3rem !important;
+    height: auto !important;
+  }
 }
 
 header {
-  padding: 3.5rem 0 !important;
+  padding: 3.5rem 3rem 5rem 3rem !important;
 }
 
 section.project {
-  padding: 6rem 0 0 0 !important;
+  padding: 6rem 3rem 5rem 3rem !important;
 }

@@ -1,17 +1,16 @@
 .logo {
   margin-bottom: 12rem;
-  margin-left: 2rem;
 }
 
 @media (max-width: 575.98px) {
   .logo {
-    margin-bottom: 10rem;
+    margin-bottom: 6rem;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .logo {
-    margin-bottom: 11rem;
+    margin-bottom: 6rem;
   }
 }
 

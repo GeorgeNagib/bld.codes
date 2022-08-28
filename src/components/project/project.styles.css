@@ -9,18 +9,8 @@
   );
 }
 
-.project .heading-2 {
-  margin-bottom: 5rem;
-}
-
 .project .heading-2-project {
   color: rgba(255, 255, 255, 0.49) !important;
-}
-
-.project .heading-2-edited {
-  color: rgba(255, 255, 255, 0.49);
-  margin-top: 8rem;
-  margin-bottom: 0;
 }
 
 .project .img-description {
@@ -29,20 +19,53 @@
   gap: 8.1rem;
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .project .img-description {
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .project .img-description {
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .project .img-description {
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+}
+
 .project .img-description img {
   width: 50.3rem;
-  max-width: 100%;
+
   height: 29.3rem;
   border-radius: 3px;
 }
 
-.project p {
-  font-weight: 400;
-  font-size: 2rem;
-  line-height: 26px;
-  max-width: 100%;
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .project .img-description img {
+    max-width: 100%;
+    height: auto;
+  }
+}
 
-  color: #ffffff;
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .project .img-description img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .project .img-description img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .project .project-description {
@@ -50,11 +73,34 @@
   height: 31.2rem;
 }
 
-.project .line {
-  width: 83px;
-  height: 0px;
-  margin-left: -38px;
+@media (min-width: 992px) and (max-width: 1100.98px) {
+  .project .project-description {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+}
 
-  border: 1px solid #ffffff;
-  transform: rotate(90deg);
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .project .project-description {
+    width: 100%;
+    height: auto;
+    order: 2;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .project .project-description {
+    width: 100%;
+    height: auto;
+    order: 2;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .project .project-description {
+    height: auto;
+    order: 2;
+  }
 }

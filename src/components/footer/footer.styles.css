@@ -15,6 +15,23 @@ footer {
   color: #fff;
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .footer-container {
+    gap: 5rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .footer-container {
+    gap: 2.75rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .footer-container {
+    gap: 2.75rem;
+  }
+}
+
 footer .heading-3 {
   font-family: 'IBM Plex Mono';
   font-style: normal;
@@ -38,6 +55,19 @@ footer p {
 footer .emails-container {
   display: flex;
   gap: 18.8rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  footer .emails-container {
+    gap: 3rem;
+  }
+}
+@media (max-width: 575.98px) {
+  footer .emails-container {
+    gap: 3rem;
+  }
 }
 
 footer a {
@@ -46,6 +76,12 @@ footer a {
   font-size: 3.2rem;
   transition: all 0.3s;
   color: #ffffff;
+}
+
+@media (max-width: 575.98px) {
+  footer a {
+    font-size: 2.8rem;
+  }
 }
 
 footer a:hover {
