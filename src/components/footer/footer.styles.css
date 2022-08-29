@@ -56,17 +56,18 @@ footer .emails-container {
   display: flex;
   gap: 18.8rem;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   footer .emails-container {
     gap: 3rem;
+    justify-content: space-between;
   }
 }
 @media (max-width: 575.98px) {
   footer .emails-container {
     gap: 3rem;
+    justify-content: space-between;
   }
 }
 

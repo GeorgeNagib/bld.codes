@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './project.styles.css';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Project = ({
   img,
@@ -10,17 +10,17 @@ const Project = ({
   headingNext,
   projectDescription,
 }) => {
-  // useEffect(() => {
-  //   AOS.init({ duration: 1900 });
-  // }, []);
+  useEffect(() => {
+    AOS.init({ duration: 1800 });
+  }, []);
   return (
     <section className="project content">
-      <div className="container">
+      <div className="container" data-aos="fade-right">
         <h2 className="heading-2 heading-2-project">{heading}</h2>
 
         <div className="img-description">
           <p className="project-description">{projectDescription}</p>
-          <a href={link}>
+          <a href={link} data-aos="fade-up">
             <img src={img} alt="project image" />
           </a>
         </div>

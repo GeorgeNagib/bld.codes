@@ -6,7 +6,6 @@ import { Steps } from '../components/Steps/Steps.componet';
 import Project from '../components/project/project.component';
 import pic from '../images/FireShot Capture 015 - ▶ Latest - Untitled - www.figma.com.png';
 import { Footer } from '../components/footer/footer.component';
-import './home-page.styles.css';
 
 const services = [
   {

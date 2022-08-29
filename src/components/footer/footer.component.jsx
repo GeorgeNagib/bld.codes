@@ -13,8 +13,10 @@ export const Footer = () => {
           porta tincidunt tincidunt amet, efficitur. Praesent faucibus Donec In
           Sed hendrerit nec gravida Ut convallis. id
         </p>
-        <h3 className="heading-3">LETS TALK!</h3>
-        <div className="emails-container">
+        <h3 className="heading-3" data-aos="fade-right">
+          LETS TALK!
+        </h3>
+        <div className="emails-container" data-aos="fade-up">
           <a href="mailto:Bld.codes@proton.me">Bld.codes@proton.me</a>
           <a href="#">@bld.codes</a>
         </div>
