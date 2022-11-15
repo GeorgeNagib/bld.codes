@@ -1,14 +1,22 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './philosophy.styles.css';
 import pic from './image 1.png';
 import Service from '../service/service.component';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
-const PhilosophySection = () => (
+const PhilosophySection = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
+  
+  return(
   <section className="philosophy" id="philosophy">
     <div className="container">
       <div className="philosophy-title-content">
-        <h2 className="heading-2">our philosophy</h2>
-        <img src={pic} alt="our philosophy img" className="img-fluid" />
+        <h2 className="heading-2" data-aos='fade-right'>our philosophy</h2>
+        <img src={pic} alt="our philosophy img" className="img-fluid" data-aos='fade-up'/>
       </div>
       <svg
         width="1277"
@@ -39,6 +47,6 @@ const PhilosophySection = () => (
       </div>
     </div>
   </section>
-);
+)};
 
 export default PhilosophySection;

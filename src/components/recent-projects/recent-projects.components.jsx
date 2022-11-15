@@ -79,8 +79,8 @@ const RecentProjectsSection = () => {
   return (
     <section className="recent-projects" id="recent-projects">
       <div className="container">
-        <h2 className="heading-2">recent projects</h2>
-        <svg
+        <h2 className="heading-2" data-aos='fade-right'>recent projects</h2>
+        <svg 
           width="1300"
           height="188"
           viewBox="0 0 1351 188"
